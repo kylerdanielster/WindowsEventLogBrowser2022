@@ -14,7 +14,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BrowseEventLogs</RootNamespace>
-    <AssemblyName>BrowseEventLogs</AssemblyName>
+    <AssemblyName>WindowsEventLogBrowser2022</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\EventLogServiceCommand.png" />
-    <VSCTCompile Include="BrowseEventLogsPackage.vsct">
+    <VSCTCompile Include="WindowsEventLogBrowser2022Package.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
     <Content Include="Resources\EventLogBrowserCommand.png" />

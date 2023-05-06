@@ -24,13 +24,13 @@ namespace BrowseEventLogs
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(BrowseEventLogsPackage.PackageGuidString)]
+    [Guid(WindowsEventLogBrowser2022Package.PackageGuidString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [ProvideToolWindow(typeof(EventLogBrowser))]
-    public sealed class BrowseEventLogsPackage : AsyncPackage
+    public sealed class WindowsEventLogBrowser2022Package : AsyncPackage
     {
         /// <summary>
-        /// BrowseEventLogsPackage GUID string.
+        /// WindowsEventLogBrowser2022Package GUID string.
         /// </summary>
         public const string PackageGuidString = "2fc8d83b-448d-4ebd-99cd-3a0969792027";
 
