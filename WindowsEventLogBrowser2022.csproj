@@ -85,7 +85,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\EventLogServiceCommand.png" />
+    <Content Include="Resources\magnify_icon.png" />
     <VSCTCompile Include="WindowsEventLogBrowser2022Package.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
